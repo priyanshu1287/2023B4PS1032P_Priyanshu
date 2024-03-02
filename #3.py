@@ -1,6 +1,5 @@
 def second_largest(lis):   
-    for i in range(lis.count(largest(lis))):
-        lis.remove(largest(lis))
+    lis.remove(largest(lis))
     print(largest(lis)) 
 
 def largest(lis):
